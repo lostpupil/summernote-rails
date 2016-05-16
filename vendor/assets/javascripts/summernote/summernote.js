@@ -1823,7 +1823,7 @@
                         if (dom.isVisiblePoint(point)) {
                             return point;
                         }
-                        // reverse direction 
+                        // reverse direction
                         isLeftToRight = !isLeftToRight;
                     }
 
@@ -2619,7 +2619,7 @@
             keyMap: {
                 pc: {
                     'ENTER': 'insertParagraph',
-                    'CTRL+Z': 'undo',
+                    // 'CTRL+Z': 'undo',
                     'CTRL+Y': 'redo',
                     'TAB': 'tab',
                     'SHIFT+TAB': 'untab',
@@ -7038,7 +7038,7 @@
         renderer: renderer,
         /** @property {EventHandler} */
         eventHandler: eventHandler,
-        /** 
+        /**
          * @property {Object} core
          * @property {core.agent} core.agent
          * @property {core.dom} core.dom
@@ -7050,7 +7050,7 @@
             dom: dom,
             range: range
         },
-        /** 
+        /**
          * @property {Object}
          * pluginEvents event list for plugins
          * event has name and callback function.
